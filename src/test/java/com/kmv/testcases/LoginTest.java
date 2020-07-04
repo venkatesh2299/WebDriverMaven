@@ -29,6 +29,7 @@ public class LoginTest {
 		driver.findElement(By.xpath("//span[contains(text(),'Jobseeker Login')]")).click();
 		driver.findElement(By.cssSelector("#signInName")).sendKeys("vkms2299@gmail.com");
 		driver.findElement(By.cssSelector("#password")).sendKeys("monsterdais2299");
+		System.out.println("Title of the web page is "+driver.getTitle());
 		
 	}
 	
